@@ -36,6 +36,16 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-26995079-2', 'auto');
+        ga('send', 'pageview');
+    </script>
+
 </head>
 
 <body id="page-top">
@@ -80,9 +90,9 @@
             <div class="header-content-inner">
                 <h1>Technology . Leadership</h1>
                 <hr>
-                <p>Senior Software Engineer at 99X Technology by profession, <br/>Business Intelligence Enthusiast by passion,<br/>
-                and<br/>Executive Director at SL2College to pay it forward!</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                <p>Senior Software Engineer at 99X Technology by profession, <br/>Business Intelligence Enthusiast by passion,<br/>                    and
+                    <br/>Executive Director at SL2College to pay it forward!</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll" onclick="accessLink('FindOutMore');">Find Out More</a>
             </div>
         </div>
     </header>
@@ -95,11 +105,11 @@
                     <hr class="light">
                     <p class="text-faded">
                         Passionate in dynamic field of Engineering, with capability to think in diverse paradigms. Have worked on various platforms
-                        and development tools with prime focus on the Web and Hybrid Mobile. Worked for
-                        major clients in Sri Lanka, Sweden, and Norway. Proven myself to be successful in team work
-                        and leadership. Focused on pursuing more knowledge in the field of Business Intelligence.
+                        and development tools with prime focus on the Web and Hybrid Mobile. Worked for major clients in
+                        Sri Lanka, Sweden, and Norway. Proven myself to be successful in team work and leadership. Focused
+                        on pursuing more knowledge in the field of Business Intelligence.
                     </p>
-                    <a href="https://lk.linkedin.com/in/rashmikanawaratne" target="_blank" class="page-scroll btn btn-default btn-xl">Check Rashmika's Full Profile</a>
+                    <a href="https://lk.linkedin.com/in/rashmikanawaratne" target="_blank" class="page-scroll btn btn-default btn-xl" onclick="accessLink('FullProfile');">Check Rashmika's Full Profile</a>
                 </div>
             </div>
         </div>
@@ -152,7 +162,7 @@
         <div class="container-fluid">
             <div class="row no-gutter">
                 <div class="col-lg-4 col-sm-6">
-                    <a href="http://blog.nawaratne.com/" target="_blank" class="portfolio-box">
+                    <a onclick="accessLink('Blog-Card');" href="http://blog.nawaratne.com/" target="_blank" class="portfolio-box">
                         <img src="img/portfolio/blog.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -167,7 +177,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="http://www.slideshare.net/razmik1" target="_blank" class="portfolio-box">
+                    <a onclick="accessLink('SlideShare-Card');" href="http://www.slideshare.net/razmik1" target="_blank" class="portfolio-box">
                         <img src="img/portfolio/presentations.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -182,7 +192,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="https://github.com/razmik" target="_blank" class="portfolio-box">
+                    <a onclick="accessLink('TechExposure-Card');" href="https://github.com/razmik" target="_blank" class="portfolio-box">
                         <img src="img/portfolio/approvely.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -197,7 +207,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="http://www.sl2college.org/" target="_blank" class="portfolio-box">
+                    <a onclick="accessLink('SL2College-Card');" href="http://www.sl2college.org/" target="_blank" class="portfolio-box">
                         <img src="img/portfolio/sl2college.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -212,7 +222,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="http://digit.lk/?s=google+student+ambassador" target="_blank" class="portfolio-box">
+                    <a onclick="accessLink('GSA-Card');" href="http://digit.lk/?s=google+student+ambassador" target="_blank" class="portfolio-box">
                         <img src="img/portfolio/gsa.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -227,7 +237,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="http://wcy2014.com/" target="_blank" class="portfolio-box">
+                    <a onclick="accessLink('WCY2014-Card');" href="http://wcy2014.com/" target="_blank" class="portfolio-box">
                         <img src="img/portfolio/wcy.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -257,42 +267,42 @@
                     </div>
 
                     <div class="col-sm-1 text-center">
-                        <a href="https://www.google.lk/search?q=rashmika+nawaratne&oq=rashmika+nawaratne" target="_blank" class="portfolio-box">
+                        <a onclick="accessLink('GoogleSearch-Footprint');" href="https://www.google.lk/search?q=rashmika+nawaratne&oq=rashmika+nawaratne" target="_blank" class="portfolio-box">
                             <i class="fa fa-google fa-3x wow bounceIn"></i>
                         </a>
                     </div>
                     <div class="col-sm-1 text-center">
-                        <a href="https://www.facebook.com/razmik" target="_blank" class="portfolio-box">
+                        <a onclick="accessLink('Facebook-Footprint');" href="https://www.facebook.com/razmik" target="_blank" class="portfolio-box">
                             <i class="fa fa-facebook-official fa-3x wow bounceIn"></i>
                         </a>
                     </div>
                     <div class="col-sm-1 text-center">
-                        <a href="https://twitter.com/razmik89" target="_blank" class="portfolio-box">
+                        <a onclick="accessLink('Twitter-Footprint');" href="https://twitter.com/razmik89" target="_blank" class="portfolio-box">
                             <i class="fa fa-twitter-square fa-3x wow bounceIn"></i>
                         </a>
                     </div>
                     <div class="col-sm-1 text-center">
-                        <a href="https://lk.linkedin.com/in/rashmikanawaratne" target="_blank" class="portfolio-box">
+                        <a onclick="accessLink('LinkedIn-Footprint');" href="https://lk.linkedin.com/in/rashmikanawaratne" target="_blank" class="portfolio-box">
                             <i class="fa fa-linkedin-square fa-3x wow bounceIn"></i>
                         </a>
                     </div>
                     <div class="col-sm-1 text-center">
-                        <a href="https://github.com/razmik" target="_blank" class="portfolio-box">
+                        <a onclick="accessLink('Github-Footprint');" href="https://github.com/razmik" target="_blank" class="portfolio-box">
                             <i class="fa fa-github-square fa-3x wow bounceIn"></i>
                         </a>
                     </div>
                     <div class="col-sm-1 text-center">
-                        <a href="https://plus.google.com/+RashmikaNawaratne" target="_blank" class="portfolio-box">
+                        <a onclick="accessLink('Google+-Footprint');" href="https://plus.google.com/+RashmikaNawaratne" target="_blank" class="portfolio-box">
                             <i class="fa fa-google-plus-square fa-3x wow bounceIn"></i>
                         </a>
                     </div>
                     <div class="col-sm-1 text-center">
-                        <a href="http://www.slideshare.net/razmik1" target="_blank" class="portfolio-box">
+                        <a onclick="accessLink('SlideShare-Footprint');" href="http://www.slideshare.net/razmik1" target="_blank" class="portfolio-box">
                             <i class="fa fa-slideshare fa-3x wow bounceIn"></i>
                         </a>
                     </div>
                     <div class="col-sm-1 text-center">
-                        <a href="https://www.youtube.com/user/jkv5689hdf" target="_blank" class="portfolio-box">
+                        <a onclick="accessLink('Youtube-Footprint');" href="https://www.youtube.com/user/jkv5689hdf" target="_blank" class="portfolio-box">
                             <i class="fa fa-youtube-square fa-3x wow bounceIn"></i>
                         </a>
                     </div>
@@ -339,6 +349,9 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
+
+    <!-- Application code -->
+    <script src="js/app.js"></script>
 
 </body>
 
